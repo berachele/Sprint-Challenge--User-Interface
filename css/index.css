@@ -144,3 +144,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*ADDING STYLING TO THE HEADER NAV LINKS*/
+
+.home-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+nav a{
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: black;
+}
+.home-image{
+    margin-bottom: 3%;
+}
+.middle-content .boxes .one{
+    background-color: teal;
+}
+.middle-content .boxes .two{
+    background-color: gold;
+}
+.middle-content .boxes .three{
+    background-color: cadetblue;
+}
+.middle-content .boxes .four{
+    background-color: coral;
+}
+.middle-content .boxes .five{
+    background-color: crimson;
+}
+.middle-content .boxes .six{
+    background-color: forestgreen;
+}
+.middle-content .boxes .seven{
+    background-color: darkorchid;
+}
+.middle-content .boxes .eight{
+    background-color: hotpink;
+}
+.middle-content .boxes .nine{
+    background-color: indigo;
+}
+.middle-content .boxes .ten{
+    background-color: dodgerblue;
+}
