@@ -201,3 +201,24 @@ nav a{
   .about-image{
     margin-bottom: 3%;
 }
+.about-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+.about-main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.about-main div{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    border-bottom: 1px dashed black;
+    padding: 3% 0;
+}
