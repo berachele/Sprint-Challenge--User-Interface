@@ -247,3 +247,55 @@ nav a{
     padding: 0 3%;
     margin: 6.5% 0 4.75%;
 }
+
+/*STRETCH GOALS--ADDING CONTACT PAGE*/
+
+.contact-image{
+    margin-bottom: 3%;
+}
+.contact-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+.contact-main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.contact-main div{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    border-bottom: 1px dashed black;
+    padding: 3.1% 0;
+}
+.contact-main img{
+    margin-top: 2%;
+    height: 350px;
+}
+.contact-main h2{
+    margin-top: 3%;
+}
+.contact-main button{
+    width: 127px;
+    height: 41px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-top: 4%;
+}
+.contact-end{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 3%;
+    margin: 6.5% 0 4.75%;
+}
+.contact-end h2{
+    font-weight: bold;
+}
