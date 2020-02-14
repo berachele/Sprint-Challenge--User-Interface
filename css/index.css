@@ -156,9 +156,10 @@ footer nav a {
 }
 nav a{
     display: flex;
-    align-items: flex-end;
+    align-items: flex-end;   
     text-decoration: none;
     color: black;
+    margin-right: 4.25%;
 }
 .home-image{
     margin-bottom: 3%;
@@ -198,7 +199,7 @@ nav a{
   ONTO THE ABOUT PAGE
   ONTO THE ABOUT PAGE*/
 
-  .about-image{
+.about-image{
     margin-bottom: 3%;
 }
 .about-intro{
@@ -220,5 +221,29 @@ nav a{
     flex-direction: column;
     width: 46%;
     border-bottom: 1px dashed black;
-    padding: 3% 0;
+    padding: 3.1% 0;
+}
+.about-main img{
+    margin-top: 2%;
+}
+.morespace{
+    margin-top: 3.5%;
+}
+.about-main h2{
+    margin-top: 3%;
+}
+.about-main button{
+    width: 127px;
+    height: 41px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-top: 4%;
+}
+.about-end{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 3%;
+    margin: 6.5% 0 4.75%;
 }
