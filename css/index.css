@@ -144,3 +144,158 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*ADDING STYLING TO THE HEADER NAV LINKS
+  ADDING STYLING TO THE HEADER NAV LINKS
+  ADDING STYLING TO THE HEADER NAV LINKS*/
+
+.home-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+nav a{
+    display: flex;
+    align-items: flex-end;   
+    text-decoration: none;
+    color: black;
+    margin-right: 4.25%;
+}
+.home-image{
+    margin-bottom: 3%;
+}
+.middle-content .boxes .one{
+    background-color: teal;
+}
+.middle-content .boxes .two{
+    background-color: gold;
+}
+.middle-content .boxes .three{
+    background-color: cadetblue;
+}
+.middle-content .boxes .four{
+    background-color: coral;
+}
+.middle-content .boxes .five{
+    background-color: crimson;
+}
+.middle-content .boxes .six{
+    background-color: forestgreen;
+}
+.middle-content .boxes .seven{
+    background-color: darkorchid;
+}
+.middle-content .boxes .eight{
+    background-color: hotpink;
+}
+.middle-content .boxes .nine{
+    background-color: indigo;
+}
+.middle-content .boxes .ten{
+    background-color: dodgerblue;
+}
+
+/*ONTO THE ABOUT PAGE
+  ONTO THE ABOUT PAGE
+  ONTO THE ABOUT PAGE*/
+
+.about-image{
+    margin-bottom: 3%;
+}
+.about-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+.about-main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.about-main div{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    border-bottom: 1px dashed black;
+    padding: 3.1% 0;
+}
+.about-main img{
+    margin-top: 2%;
+}
+.morespace{
+    margin-top: 3.5%;
+}
+.about-main h2{
+    margin-top: 3%;
+}
+.about-main button{
+    width: 127px;
+    height: 41px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-top: 4%;
+}
+.about-end{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 3%;
+    margin: 6.5% 0 4.75%;
+}
+
+/*STRETCH GOALS--ADDING CONTACT PAGE*/
+
+.contact-image{
+    margin-bottom: 3%;
+}
+.contact-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+.contact-main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.contact-main div{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    border-bottom: 1px dashed black;
+    padding: 3.1% 0;
+}
+.contact-main img{
+    margin-top: 2%;
+    height: 350px;
+}
+.contact-main h2{
+    margin-top: 3%;
+}
+.contact-main button{
+    width: 127px;
+    height: 41px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-top: 4%;
+}
+.contact-end{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 3%;
+    margin: 6.5% 0 4.75%;
+}
+.contact-end h2{
+    font-weight: bold;
+}
